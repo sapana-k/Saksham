@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 import 'dart:convert' as convert;
 
 class LocationService {
-  final String key = 'AIzaSyDKv1u2nhfijIPCUwjQOT3s2ct0HQW_56E';
+  final String key = '';
 
   Future<Map<String, dynamic>> getPlace(String input) async {
     var placeId;
